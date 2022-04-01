@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="BorderPane" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ac.ulb.infof307.g06.presentation.help.HelpView">
+    <left>
+        <TreeView fx:id="sideBarTreeView" prefHeight="530.0" prefWidth="300.0" BorderPane.alignment="CENTER" />
+    </left>
+   <center>
+      <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" hmax="0" prefHeight="530.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <content>
+            <Label fx:id="helpContent" lineSpacing="1.0" text="Template de texte pour la mise en forme.Veuillez laisser en état." textAlignment="JUSTIFY"></Label>
+         </content>
+      </ScrollPane>
+   </center>
+</fx:root>

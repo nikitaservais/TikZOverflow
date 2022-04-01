@@ -1,0 +1,29 @@
+.styled-text-area {
+    -fx-background-color: white;
+}
+
+.lineno {
+    -fx-background-color: white;
+}
+
+.styled-text-area .text {
+    -fx-fill: black;
+}
+
+.styled-text-area .keywords {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .backslash_keywords {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area.styled-text-area .comment {
+    -fx-fill: green;
+}
+
+.styled-text-area .parameter  {
+    -fx-fill: orange;
+}

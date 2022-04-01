@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ac.ulb.infof307.g06.presentation.versioning.commithistory.CommitHistoryView">
+    <children>
+        <Label id="page-title" layoutX="150.0" layoutY="20.0" text="Commit History"></Label>
+        <Label layoutX="50.0" layoutY="50.0" text="Branch: "></Label>
+        <ComboBox fx:id="comboBoxBranchName" layoutX="140.0" layoutY="50.0" prefWidth="150.0" onAction="#comboBoxSelectedOnAction" />
+        <TableView fx:id = "tableView" layoutX="10.0" layoutY="100.0" prefHeight="276.0" prefWidth="576.0">
+        </TableView>
+    </children>
+</fx:root>

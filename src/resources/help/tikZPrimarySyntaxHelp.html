@@ -1,0 +1,26 @@
+La syntaxe par défaut d'une instruction en language TikZ est la suivante:
+
+\instruction[param1=valeur1, param2=valeur2, paramSansValeur, ...] (coordonnées1) lien (coordonnées2)/(rayon);
+
+Il est important de la respecter à la lettre, sous peine de voir la traduction du code compromise.
+
+1. L'instruction:
+Dans notre version, la seule instruction à ce jour permise est l'instruction "draw". Elle doit être précédée du
+backslash '\'.
+
+2. Les paramètres:
+Les paramètres sont au nombre de trois:
+- color, avec comme valeur la couleur de contour en hexadécimal (format 0x00000000)
+- fill, avec comme valeur la couleur de remplissage en hexadécimal (format 0x00000000)
+- ->, ou dashed, pour indiquer que le lien linéaire est respectivement fléché ou pointillé
+
+3. Les coordonnées 1
+Ce sont soit celles du début de la figure, soit celles de son centre.
+
+4. Le lien:
+Voir la rubrique lien et la rubrique forme
+
+5. Les coordonnées 2 ou le rayon:
+La valeur de ce paramètre dépendra du type de lien choisi.
+
+Le point-virgule, ";", est quant à lui indispensable pour indiquer la fin de l'instruction.

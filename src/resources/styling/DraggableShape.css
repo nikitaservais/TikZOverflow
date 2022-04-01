@@ -1,0 +1,15 @@
+.shape{
+    -fx-background-size: 50;
+    -fx-border-width: 2;
+    -fx-border-color: #000000;
+    -fx-background-color: transparent;
+}
+
+.circle{
+    -fx-background-size: 50;
+    -fx-background-radius: 1000;
+    -fx-border-radius: 1000;
+    -fx-border-width: 2;
+    -fx-border-color: #000000;
+    -fx-background-color: transparent;
+}

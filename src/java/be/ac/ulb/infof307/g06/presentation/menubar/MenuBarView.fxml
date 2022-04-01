@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<fx:root type="MenuBar" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ac.ulb.infof307.g06.presentation.menubar.MenuBarView">
+    <Menu mnemonicParsing="false" text="File">
+        <MenuItem fx:id="openProjectMenuItem" mnemonicParsing="false" onAction="#openProjectMenuItemOnClick" text="Open project" />
+        <MenuItem fx:id="saveProjectMenuItem" mnemonicParsing="false" onAction="#saveProjectMenuItemOnClick" text="Save project" />
+        <MenuItem fx:id="closeProjectMenuItem" mnemonicParsing="false" onAction="#closeProjectMenuItemOnClick" text="Close project" />
+        <MenuItem fx:id="importProjectMenuItem" mnemonicParsing="false" onAction="#importProjectMenuItemOnClick" text="Import project" />
+        <MenuItem fx:id="exportProjectMenuItem" mnemonicParsing="false" onAction="#exportProjectMenuItemOnClick" text="Export project" />
+        <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" onAction="#exitMenuItemOnClick" text="Exit" />
+    </Menu>
+    <Menu fx:id = "menuVersionControl" mnemonicParsing="false" text="Version control">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#commitOnAction" text="Commit" />
+                <MenuItem mnemonicParsing="false" onAction="#revertCommitOnAction" text="Revert" />
+                <MenuItem mnemonicParsing="false" onAction="#createNewBranchOnAction" text="Create Branch" />
+                <MenuItem mnemonicParsing="false" onAction="#chooseExistingBranchOnAction" text="Change Branch" />
+                <MenuItem mnemonicParsing="false" onAction="#mergeOnAction" text="Merge" />
+                <MenuItem mnemonicParsing="false" onAction="#commitContentOnAction" text="Display Commit Content" />
+                <MenuItem mnemonicParsing="false" onAction="#historyOnAction" text="Commit History" />
+        </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Other">
+        <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" onAction="#helpMenuItemOnClick" text="Help" />
+        <MenuItem fx:id="themeMenuItem" mnemonicParsing="false" onAction="#themeMenuItemOnClick" text="Theme" />
+    </Menu>
+</fx:root>

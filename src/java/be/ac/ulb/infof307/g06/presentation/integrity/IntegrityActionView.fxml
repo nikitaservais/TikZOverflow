@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="147.0" prefWidth="293.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ac.ulb.infof307.g06.presentation.integrity.IntegrityActionView">
+   <children>
+      <VBox alignment="CENTER" layoutY="20.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Your project has been corrupted." />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#continueFromLastCommitClicked" prefHeight="30.0" prefWidth="160.0" text="Continue from last commit" textAlignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#deletedProjectClicked" prefHeight="30.0" prefWidth="160.0" text="Delete project" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</fx:root>
